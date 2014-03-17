@@ -1,24 +1,26 @@
-execute pathogen#infect()
-syntax on
+call pathogen#infect()
 filetype plugin indent on
+syntax on
 set number
 color jellybeans
+
+"Django html syntax highlight
+autocmd FileType html set ft=htmldjango
 
 "Clipboard
 set clipboard=unnamed
 
 "Tabs and indent
 set expandtab
-set tabstop=2
-set shiftwidth=2
-set smartindent
+set tabstop=4
+set shiftwidth=4
+set autoindent
 
 "Custom commands
 set pastetoggle=<F10>
 map <F5> :so $MYVIMRC<CR>
 map <C-A> gg"+yG
 map <C-C> "+y
-map <C-V> i<C-R>*
 
 "GVIM
 set guifont=Monospace\ 12
