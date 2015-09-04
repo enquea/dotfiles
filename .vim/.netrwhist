@@ -1,9 +1,9 @@
 let g:netrw_dirhistmax  =10
 let g:netrw_dirhist_cnt =7
-let g:netrw_dirhist_1='/home/wenbo/Documents/app/ProjectOtto'
-let g:netrw_dirhist_2='/etc/postgresql-common'
-let g:netrw_dirhist_3='/etc'
-let g:netrw_dirhist_4='/'
-let g:netrw_dirhist_5='/etc/postgresql'
-let g:netrw_dirhist_6='/etc/postgresql/9.1'
-let g:netrw_dirhist_7='/etc/postgresql/9.1/main'
+let g:netrw_dirhist_1='/home/wenbo/Downloads/django/dhsos'
+let g:netrw_dirhist_2='/home/wenbo/designhub/django'
+let g:netrw_dirhist_3='/home/wenbo/designhub/django/dhassociations'
+let g:netrw_dirhist_4='/home/wenbo/designhub/django'
+let g:netrw_dirhist_5='/home/wenbo/designhub/django/designhub'
+let g:netrw_dirhist_6='/home/wenbo/designhub/django'
+let g:netrw_dirhist_7='/home/wenbo/designhub/django/designhub'
